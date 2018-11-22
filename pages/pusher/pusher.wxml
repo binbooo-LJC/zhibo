@@ -1,7 +1,6 @@
 <view class="page-body">
   <view class="page-section tc">
-    <live-pusher id="pusher" url="" mode="RTC" autopush bindstatechange="statechange" />
-
+    <live-pusher id="pusher" url="rtmp://36359.livepush.myqcloud.com/live/36359_86d1d3e1c3?bizid=36359&txSecret=018c41f7143a246fb438845c28f446cb&txTime=5C1E5F7F" mode="SD" autopush bindstatechange="statechange" debug='true' />
     <view class="btn-area">
       <button bindtap="bindStart" class="page-body-button" type="primary">播放推流</button>
       <button bindtap="bindPause" class="page-body-button" type="primary">暂停推流</button>

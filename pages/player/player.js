@@ -1,4 +1,7 @@
 Page({
+  data:{
+    playurl:'http://36359.livepush.myqcloud.com/live/123456789.flv'
+  },
   onReady(res) {
     this.ctx = wx.createLivePlayerContext('player')
   },
